@@ -15,4 +15,3 @@ jobs:
           owner: sansx
           base: sync-test
           head: main
-          auto_merge: false
