@@ -23,6 +23,25 @@ const sidebars = {
     },
     {
       'type': 'html',
+      'value': '<span class=\'menu__link\'><b><small> TON Academy </small></b></span>',
+    },
+    {
+      type: 'category',
+      label: 'Learn',
+      items: [
+        {
+          type: 'doc',
+          label: 'Overview',
+          id: 'learn/academy/academy-overview',
+        },
+      ]
+    },
+    {
+      'type': 'html',
+      'value': '<hr/>',
+    },
+    {
+      'type': 'html',
       'value': '<span class=\'menu__link\'><b><small> TON Concepts </small></b></span>',
     },
     {
@@ -216,6 +235,7 @@ const sidebars = {
           type: 'category',
           label: 'Core Contracts',
           items: [
+            'develop/smart-contracts/core-contracts/precompiled',
             'develop/smart-contracts/governance',
             'develop/research-and-development/minter-flow',
           ],
@@ -334,6 +354,7 @@ const sidebars = {
           label: 'Advanced Asset Holding',
           items: [
             'develop/dapps/asset-processing/README',
+            'develop/dapps/asset-processing/address-verification',
             'develop/dapps/asset-processing/jettons',
             'develop/dapps/asset-processing/nfts',
             'develop/dapps/asset-processing/metadata',
@@ -518,6 +539,7 @@ const sidebars = {
           items: [
             'develop/data-formats/cell-boc',
             'develop/data-formats/exotic-cells',
+            'develop/data-formats/library-cells',
             'develop/data-formats/proofs',
             'develop/data-formats/tl-b-language',
             'develop/data-formats/tl-b-types',
@@ -639,6 +661,7 @@ const sidebars = {
         'participate/network-maintenance/nominators',
         'participate/network-maintenance/persistent-states',
         'participate/nodes/collators',
+        'participate/network-maintenance/custom-overlays',
       ],
     },
     {
